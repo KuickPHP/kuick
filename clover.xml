@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1732886222">
-  <project timestamp="1732886222">
+<coverage generated="1732914619">
+  <project timestamp="1732914619">
     <file name="/var/www/html/src/App/AppDIContainerBuilder.php">
       <class name="Kuick\App\AppDIContainerBuilder" namespace="global">
         <metrics complexity="13" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="40" coveredstatements="0" elements="46" coveredelements="0"/>
@@ -148,7 +148,7 @@
     </file>
     <file name="/var/www/html/src/App/Router/ActionInvokeArgumentReflector.php">
       <class name="Kuick\App\Router\ActionInvokeArgumentReflector" namespace="global">
-        <metrics complexity="4" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="11" coveredelements="11"/>
+        <metrics complexity="4" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="12" coveredelements="12"/>
       </class>
       <line num="23" type="method" name="__invoke" visibility="public" complexity="4" crap="4" count="2"/>
       <line num="25" type="stmt" count="2"/>
@@ -160,8 +160,9 @@
       <line num="32" type="stmt" count="1"/>
       <line num="33" type="stmt" count="1"/>
       <line num="34" type="stmt" count="1"/>
-      <line num="36" type="stmt" count="1"/>
-      <metrics loc="39" ncloc="29" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="11" coveredelements="11"/>
+      <line num="35" type="stmt" count="1"/>
+      <line num="37" type="stmt" count="1"/>
+      <metrics loc="40" ncloc="30" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="12" coveredelements="12"/>
     </file>
     <file name="/var/www/html/src/App/Router/ActionLauncher.php">
       <class name="Kuick\App\Router\ActionLauncher" namespace="global">
@@ -288,20 +289,24 @@
     </file>
     <file name="/var/www/html/src/App/Services/BuildActionMatcher.php">
       <class name="Kuick\App\Services\BuildActionMatcher" namespace="global">
-        <metrics complexity="3" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="0" elements="11" coveredelements="0"/>
+        <metrics complexity="4" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="0" elements="15" coveredelements="0"/>
       </class>
-      <line num="24" type="method" name="__invoke" visibility="public" complexity="3" crap="12" count="0"/>
-      <line num="26" type="stmt" count="0"/>
+      <line num="25" type="method" name="__invoke" visibility="public" complexity="4" crap="20" count="0"/>
       <line num="27" type="stmt" count="0"/>
+      <line num="28" type="stmt" count="0"/>
       <line num="29" type="stmt" count="0"/>
       <line num="30" type="stmt" count="0"/>
+      <line num="31" type="stmt" count="0"/>
+      <line num="33" type="stmt" count="0"/>
       <line num="34" type="stmt" count="0"/>
-      <line num="35" type="stmt" count="0"/>
-      <line num="36" type="stmt" count="0"/>
       <line num="38" type="stmt" count="0"/>
       <line num="39" type="stmt" count="0"/>
       <line num="40" type="stmt" count="0"/>
-      <metrics loc="43" ncloc="30" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="0" elements="11" coveredelements="0"/>
+      <line num="42" type="stmt" count="0"/>
+      <line num="44" type="stmt" count="0"/>
+      <line num="45" type="stmt" count="0"/>
+      <line num="46" type="stmt" count="0"/>
+      <metrics loc="49" ncloc="36" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="0" elements="15" coveredelements="0"/>
     </file>
     <file name="/var/www/html/src/App/Services/BuildConfiguration.php">
       <class name="Kuick\App\Services\BuildConfiguration" namespace="global">
@@ -348,6 +353,24 @@
       <line num="53" type="stmt" count="0"/>
       <line num="54" type="stmt" count="0"/>
       <metrics loc="57" ncloc="46" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="0" elements="12" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/src/App/Services/CacheWrapper.php">
+      <class name="Kuick\App\Services\CacheWrapper" namespace="global">
+        <metrics complexity="4" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="0" elements="12" coveredelements="0"/>
+      </class>
+      <line num="19" type="method" name="load" visibility="public" complexity="3" crap="12" count="0"/>
+      <line num="22" type="stmt" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="25" type="stmt" count="0"/>
+      <line num="27" type="stmt" count="0"/>
+      <line num="28" type="stmt" count="0"/>
+      <line num="29" type="stmt" count="0"/>
+      <line num="30" type="stmt" count="0"/>
+      <line num="32" type="stmt" count="0"/>
+      <line num="35" type="method" name="save" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="37" type="stmt" count="0"/>
+      <line num="38" type="stmt" count="0"/>
+      <metrics loc="41" ncloc="32" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="0" elements="12" coveredelements="0"/>
     </file>
     <file name="/var/www/html/src/App/Services/ServiceBuildAbstract.php">
       <class name="Kuick\App\Services\ServiceBuildAbstract" namespace="global">
@@ -456,12 +479,12 @@
     </file>
     <file name="/var/www/html/src/Http/JsonErrorResponse.php">
       <class name="Kuick\Http\JsonErrorResponse" namespace="global">
-        <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+        <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
       </class>
-      <line num="20" type="method" name="__construct" visibility="public" complexity="2" crap="6" count="0"/>
-      <line num="24" type="stmt" count="0"/>
-      <line num="25" type="stmt" count="0"/>
-      <metrics loc="28" ncloc="21" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+      <line num="20" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="1"/>
+      <line num="24" type="stmt" count="1"/>
+      <line num="25" type="stmt" count="1"/>
+      <metrics loc="28" ncloc="21" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
     </file>
     <file name="/var/www/html/src/Http/JsonResponse.php">
       <class name="Kuick\Http\JsonResponse" namespace="global">
@@ -537,19 +560,22 @@
     </file>
     <file name="/var/www/html/src/Http/ResponseEmmiter.php">
       <class name="Kuick\Http\ResponseEmmiter" namespace="global">
-        <metrics complexity="5" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="10" coveredelements="0"/>
+        <metrics complexity="7" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="5" elements="13" coveredelements="5"/>
       </class>
-      <line num="17" type="method" name="__invoke" visibility="public" complexity="5" crap="30" count="0"/>
-      <line num="20" type="stmt" count="0"/>
+      <line num="17" type="method" name="__invoke" visibility="public" complexity="7" crap="16.73" count="1"/>
+      <line num="20" type="stmt" count="1"/>
       <line num="21" type="stmt" count="0"/>
       <line num="22" type="stmt" count="0"/>
-      <line num="25" type="stmt" count="0"/>
-      <line num="27" type="stmt" count="0"/>
-      <line num="29" type="stmt" count="0"/>
-      <line num="30" type="stmt" count="0"/>
-      <line num="31" type="stmt" count="0"/>
-      <line num="33" type="stmt" count="0"/>
-      <metrics loc="36" ncloc="25" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="10" coveredelements="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="27" type="stmt" count="1"/>
+      <line num="28" type="stmt" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <line num="32" type="stmt" count="0"/>
+      <line num="34" type="stmt" count="0"/>
+      <line num="35" type="stmt" count="0"/>
+      <line num="36" type="stmt" count="0"/>
+      <line num="38" type="stmt" count="1"/>
+      <metrics loc="41" ncloc="30" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="5" elements="13" coveredelements="5"/>
     </file>
     <file name="/var/www/html/src/Http/ResponseException.php">
       <class name="Kuick\Http\ResponseException" namespace="global">
@@ -615,6 +641,6 @@
     <file name="/var/www/html/src/Security/GuardInterface.php">
       <metrics loc="23" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <metrics files="40" loc="1572" ncloc="1184" classes="23" methods="62" coveredmethods="37" conditionals="0" coveredconditionals="0" statements="315" coveredstatements="151" elements="377" coveredelements="188"/>
+    <metrics files="41" loc="1625" ncloc="1228" classes="24" methods="64" coveredmethods="38" conditionals="0" coveredconditionals="0" statements="333" coveredstatements="159" elements="397" coveredelements="197"/>
   </project>
 </coverage>
